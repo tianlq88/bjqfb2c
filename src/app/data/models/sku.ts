@@ -6,7 +6,7 @@ export interface Sku {
     imageUrl: string;
     code: string;
     description: string;
-    prices: Price[];
+    price: Price;
     __collectionMeta: {
         recordCount: number;
         pageCount: number;
